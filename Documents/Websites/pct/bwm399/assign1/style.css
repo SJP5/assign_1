@@ -1,0 +1,132 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	margin:0 auto;
+	background-color:#C96;
+}
+
+#page-container{
+	margin:0 auto;
+	width:1000px;
+}
+
+#header{
+	width:1000px;
+	height:215px;
+	background-repeat:no-repeat;
+	float:right;
+	
+}
+
+#nav{
+	width:1000px;
+	height:40px;
+	background-color:#CC9;
+	float:right
+}
+
+#nav ul{
+}
+
+#nav li a:hover{
+	color:#C96;
+}
+
+
+
+#content{
+	width:1000px;
+	height:;
+	background:#997C60;
+	float:right;
+}
+
+#content p{
+	color:#FFF;
+	padding-left:20px;
+	padding-right:20px;
+}
+
+#content a{
+	text-decoration:none;
+	color:#613000;
+}
+
+#content a:visited{
+	color:#613000;
+}
+
+#eventpics{
+	width:1000px;
+}
+
+.pic{
+	margin-bottom:20px;	
+}
+
+.img{
+	margin-left:127px;
+	margin-bottom:15px;
+}
+
+.img2{
+	padding: 87px 15px 20px 15px;
+	float: left;
+}
+
+.img3{
+	padding-left:23px;
+	padding-bottom:20px;
+}
+
+.img4{
+	padding-left:23px;
+	padding-bottom:20px;
+}
+
+
+.about-text{
+	float: right;
+	width: 625px;
+	text-align:justify;
+	text-rendering: optimizeLegibility;
+}
+
+#footer{
+	width:1000px;
+	height:50px;
+	color:#FFF;
+	text-align:center;
+	background-color:#CC9;
+	float:right;
+}
+#copyright{
+	padding-top:15px;
+}
+
+em{
+	color:#613000;
+}
+
+h1{
+padding-left:20px;
+padding-right:20px;
+color:#613000;
+}
+
+h2{ 
+padding-left:20px;
+padding-right:20px;
+color:#613000;
+}
+
+.h2class{
+	float:right;
+}
+
+h3{ 
+padding-left:20px;
+padding-right:20px;
+color:#CC9;
+}
