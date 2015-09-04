@@ -4,8 +4,6 @@ $accent:  #CC9;
 $basefont: "Trebuchet MS", san-serif;
 $basehover: brown;
 $basewidth: 1000px;
-
-
 //end variables 
 
 @charset "UTF-8";
@@ -70,6 +68,34 @@ body{
 #eventpics{
 	width:$basewidth;
 }
+
+//nest selecting selector thing
+.nest{
+    color: brown;
+    
+    .testnest{
+        color:aquamarine;
+    }
+}
+//END nest selecting selector thing
+
+//regular nesting
+
+.nest{ 
+    
+font:{
+    font-family: $basefont;
+    size: 14px;
+    }
+    
+    //using SASS functions
+background:adjust_hue(saturate(lighten(#000, 13) , 100), 182);
+    
+}
+//END Regular nesting
+
+
+
 
 .pic{
 	margin-bottom:20px;	

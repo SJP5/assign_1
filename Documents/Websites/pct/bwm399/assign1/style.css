@@ -44,6 +44,16 @@ body {
 #eventpics {
   width: 1000px; }
 
+.nest {
+  color: brown; }
+  .nest .testnest {
+    color: aquamarine; }
+
+.nest {
+  font-font-family: "Trebuchet MS", san-serif;
+  font-size: 14px;
+  background: #004042; }
+
 .pic {
   margin-bottom: 20px; }
 
