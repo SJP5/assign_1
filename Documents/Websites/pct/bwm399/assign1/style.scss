@@ -94,6 +94,25 @@ background:adjust_hue(saturate(lighten(#000, 13) , 100), 182);
 }
 //END Regular nesting
 
+//mixin stuff
+@mixin remy ($pixels) {
+    font-size: ($pixels/10)+rem;
+}
+.testnest{ @include remy(32);}
+//end MIXIN stuf
+
+
+//extend stuff
+.ext{ 
+    padding: 20px;
+    color:aquamarine;
+    background-color: antiquewhite;
+}
+
+.super{
+    @extend .ext;
+    color:black;
+}
 
 
 

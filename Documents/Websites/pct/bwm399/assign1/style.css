@@ -54,6 +54,17 @@ body {
   font-size: 14px;
   background: #004042; }
 
+.testnest {
+  font-size: 3.2rem; }
+
+.ext, .super {
+  padding: 20px;
+  color: aquamarine;
+  background-color: antiquewhite; }
+
+.super {
+  color: black; }
+
 .pic {
   margin-bottom: 20px; }
 
