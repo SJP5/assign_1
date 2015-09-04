@@ -1,0 +1,143 @@
+/*variables*/
+$base: #000;
+$accent:  #CC9;
+$basefont: "Trebuchet MS", san-serif;
+$basehover: brown;
+$basewidth: 1000px;
+
+
+//end variables 
+
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	margin:0 auto;
+	background-color: $base;//changed color from light brown to black
+}
+
+#page-container{
+	margin:0 auto;
+	width:$basewidth;//width is 1000px
+}
+
+#header{
+	width:$basewidth;//width is 1000px
+	height:215px;
+	background-repeat:no-repeat;
+	float:right;
+	
+}
+
+#nav{
+	width:$basewidth;//width is 1000px
+	height:40px;
+	background-color:$accent;//color accent change
+	float:right
+}
+
+#nav ul{
+}
+
+#nav li a:hover{
+	color:$basehover; //basic hover color brown
+}
+
+
+
+#content{
+	width:$basewidth;//width is 1000px
+	background:#997C60;
+	float:right;
+}
+
+#content p{
+	color:#FFF;
+	padding-left:20px;
+	padding-right:20px;
+    font-family: $basefont; //added a font
+}
+
+#content a{
+	text-decoration:none;
+	color:$accent;//color accent for content links
+}
+
+#content a:visited{
+	color:$accent; //color accent for visited links
+}
+
+#eventpics{
+	width:$basewidth;
+}
+
+.pic{
+	margin-bottom:20px;	
+}
+
+.img{
+	margin-left:127px;
+	margin-bottom:15px;
+}
+
+.img2{
+	padding: 87px 15px 20px 15px;
+	float: left;
+}
+
+.img3{
+	padding-left:23px;
+	padding-bottom:20px;
+}
+
+.img4{
+	padding-left:23px;
+	padding-bottom:20px;
+}
+
+
+.about-text{
+	float: right;
+	width: 625px;
+	text-align:justify;
+	text-rendering: optimizeLegibility;
+    font-family: $basefont;
+}
+
+#footer{
+	width:$basewidth;
+	height:50px;
+	color:#FFF;
+	text-align:center;
+	background-color:$base;
+	float:right;
+}
+#copyright{
+	padding-top:15px;
+}
+
+em{
+	color:#613000;
+}
+
+h1{
+padding-left:20px;
+padding-right:20px;
+color:#613000;
+}
+
+h2{ 
+padding-left:20px;
+padding-right:20px;
+color:#613000;
+}
+
+.h2class{
+	float:right;
+}
+
+h3{ 
+padding-left:20px;
+padding-right:20px;
+color:#CC9;
+}
